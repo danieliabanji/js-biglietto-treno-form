@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.ticket{
+    max-width: 100%;
+}
+
+
+.distanza{
+    top: 65.8%;
+    left: 54.8%;
+    transform: translate(-50% , 50%);
+}
+#distanza::after{
+    content: 'km';
+}
+
+.eta{
+    top: 70.5%;
+    left: 52.5%;
+    transform: translate(-50% , 50%);
+}
+
+.prezzo{
+    top: 75.5%;
+    left: 54.5%;
+    transform: translate(-50% , 50%);
+}
+

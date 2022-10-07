@@ -11,9 +11,66 @@
 </head>
 <body>
     
+    <div class="bg-warning p-3">
+        <div class="container  text-center justify-content-center">
+            <h1 class="text-uppercase">Calcola il prezzo del tuo Biglietto</h1>
+            <form class="mt-5">
+                <div class="row">
+                    <div class="col-6">
+                        <label for="km" class="fs-2">Distanza in km</label>
+                        <input type="number" id="km" name="km" class="border-warning"><br><br>
+                    </div>
+                    <div class="col-6 ">
+                        <label for="age" class="fs-2">Et&aacute; passeggero</label>
+                        <input type="number" id="age" name="age" class="border-warning"><br><br>
+                    </div>
+                </div>
+                <input type="button" id="calcola" value="calcola prezzo" class="mt-4 btn-warning">
+              </form>
+              <div>
+                <h2 id="prezzo" class="mt-3"></h2>
+              </div>
+        </div>
+    </div>
 
+    <div id="biglietto" class="container d-none ">
+        <div class="text-center" >
+            <img src="./img/ticket-train.jpg" class="ticket rounded-5 py-3 position-relative" alt="ticket">
+            <div class="row position-absolute distanza align-content-center">
+                
+                <div class="col-6 text-uppercase">
+                    <h1 class="fs-5"> distanza: </h1>
+                </div>
+                
+                <div class="col-6">
+                    <h1 class="fs-5" id="distanza" ></h1>
+                </div>
+            </div>
+            <div class="row position-absolute eta align-content-center">
 
+                <div class="col-6 text-uppercase">
+                    <h1 class="fs-5"> et&agrave:</h1>
+                </div>
 
+                <div class="col-6">
+                    <h1 class="fs-5" id="eta" ></h1>
+                </div>
+            </div>
+            <div class="row position-absolute prezzo align-content-center">
+
+                <div class="col-6 text-uppercase">
+                    <h1 class="fs-5"> pagato: </h1>
+                </div>
+
+                <div class="col-6">
+                    <h1 class="fs-5" id="prezzofinale" ></h1>
+                </div>
+            </div>
+        
+        
+        
+        </div>
+    </div>
 
 
 
