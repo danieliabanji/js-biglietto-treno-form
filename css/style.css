@@ -11,8 +11,8 @@
 
 
 .distanza{
-    top: 65.8%;
-    left: 54.8%;
+    top: 72%;
+    left: 55.8%;
     transform: translate(-50% , 50%);
 }
 #distanza::after{
@@ -20,14 +20,14 @@
 }
 
 .eta{
-    top: 70.5%;
-    left: 52.5%;
+    top: 76.8%;
+    left: 53%;
     transform: translate(-50% , 50%);
 }
 
 .prezzo{
-    top: 75.5%;
-    left: 54.5%;
+    top: 81.5%;
+    left: 55%;
     transform: translate(-50% , 50%);
 }
 
